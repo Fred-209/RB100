@@ -4,3 +4,4 @@ puts "What's your name?"
 user_name = gets.chomp
 puts "How are you doing, #{user_name}?"
 
+10.times {puts user_name}
