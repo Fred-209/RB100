@@ -1,7 +1,11 @@
 # Get name from user and print it out to screen
 
-puts "What's your name?"
-user_name = gets.chomp
-puts "How are you doing, #{user_name}?"
+print "What's your first name?: "
+first_name = gets.chomp
 
-10.times {puts user_name}
+print "Ok now what's your last name?: "
+last_name = gets.chomp
+
+puts "How are you doing, #{first_name} #{last_name}?"
+
+10.times {puts first_name + ' ' + last_name}
