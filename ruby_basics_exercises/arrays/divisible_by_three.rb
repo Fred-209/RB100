@@ -1,0 +1,11 @@
+# In the code below, an array containing five numbers is assigned to numbers.
+
+numbers = [5, 9, 21, 26, 39]
+
+# Use array#select to iterate over numbers, and return a new array that contains only numbers divisible by
+# 3. Assign the returned array to a variable named divisible_by_three and print it's value using #p
+
+divisible_by_three = numbers.select do |number|
+                       number % 3 == 0
+                     end
+p divisible_by_three                 
